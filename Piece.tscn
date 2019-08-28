@@ -1,0 +1,156 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Piece.gd" type="Script" id=1]
+[ext_resource path="res://Block.tscn" type="PackedScene" id=2]
+
+[node name="Piece" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Blocks" type="Node2D" parent="."]
+
+[node name="b00" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0, 0.976471, 1, 1 )
+
+[node name="b01" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 110 )
+Filled = false
+
+[node name="b02" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 220 )
+Filled = false
+
+[node name="b03" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 330 )
+Filled = false
+
+[node name="b04" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 440 )
+Filled = false
+
+[node name="b10" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 0 )
+Filled = false
+
+[node name="b11" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 110 )
+Filled = false
+
+[node name="b12" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 220 )
+Filled = false
+
+[node name="b13" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 330 )
+Filled = false
+
+[node name="b14" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 440 )
+Filled = false
+
+[node name="b20" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 0 )
+Filled = false
+
+[node name="b21" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 110 )
+Filled = false
+
+[node name="b22" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 220 )
+Filled = false
+
+[node name="b23" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 330 )
+Filled = false
+
+[node name="b24" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 440 )
+Filled = false
+
+[node name="b30" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 0 )
+Filled = false
+
+[node name="b31" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 110 )
+Filled = false
+
+[node name="b32" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 220 )
+Filled = false
+
+[node name="b33" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 330 )
+Filled = false
+
+[node name="b34" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 440 )
+Filled = false
+
+[node name="b40" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 0 )
+Filled = false
+
+[node name="b41" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 110 )
+Filled = false
+
+[node name="b42" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 220 )
+Filled = false
+
+[node name="b43" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 330 )
+Filled = false
+
+[node name="b44" parent="Blocks" instance=ExtResource( 2 )]
+visible = false
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 440 )
+Filled = false

@@ -1,0 +1,512 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Board.gd" type="Script" id=1]
+[ext_resource path="res://Block.tscn" type="PackedScene" id=2]
+
+[node name="Board" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Blocks" type="Node2D" parent="."]
+position = Vector2( 60, 60 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="b00" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+Filled = false
+
+[node name="b01" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 110 )
+Filled = false
+
+[node name="b02" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 220 )
+Filled = false
+
+[node name="b03" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 330 )
+Filled = false
+
+[node name="b04" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 440 )
+Filled = false
+
+[node name="b05" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 550 )
+Filled = false
+
+[node name="b06" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 660 )
+Filled = false
+
+[node name="b07" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 770 )
+Filled = false
+
+[node name="b08" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 880 )
+Filled = false
+
+[node name="b09" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 0, 990 )
+Filled = false
+
+[node name="b10" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 0 )
+Filled = false
+
+[node name="b11" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 110 )
+Filled = false
+
+[node name="b12" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 220 )
+Filled = false
+
+[node name="b13" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 330 )
+Filled = false
+
+[node name="b14" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 440 )
+Filled = false
+
+[node name="b15" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 550 )
+Filled = false
+
+[node name="b16" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 660 )
+Filled = false
+
+[node name="b17" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 770 )
+Filled = false
+
+[node name="b18" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 880 )
+Filled = false
+
+[node name="b19" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 110, 990 )
+Filled = false
+
+[node name="b20" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 0 )
+Filled = false
+
+[node name="b21" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 110 )
+Filled = false
+
+[node name="b22" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 220 )
+Filled = false
+
+[node name="b23" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 330 )
+Filled = false
+
+[node name="b24" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 440 )
+Filled = false
+
+[node name="b25" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 550 )
+Filled = false
+
+[node name="b26" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 660 )
+Filled = false
+
+[node name="b27" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 770 )
+Filled = false
+
+[node name="b28" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 880 )
+Filled = false
+
+[node name="b29" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 220, 990 )
+Filled = false
+
+[node name="b30" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 0 )
+Filled = false
+
+[node name="b31" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 110 )
+Filled = false
+
+[node name="b32" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 220 )
+Filled = false
+
+[node name="b33" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 330 )
+Filled = false
+
+[node name="b34" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 440 )
+Filled = false
+
+[node name="b35" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 550 )
+Filled = false
+
+[node name="b36" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 660 )
+Filled = false
+
+[node name="b37" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 770 )
+Filled = false
+
+[node name="b38" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 880 )
+Filled = false
+
+[node name="b39" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 330, 990 )
+Filled = false
+
+[node name="b40" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 0 )
+Filled = false
+
+[node name="b41" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 110 )
+Filled = false
+
+[node name="b42" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 220 )
+Filled = false
+
+[node name="b43" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 330 )
+Filled = false
+
+[node name="b44" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 440 )
+Filled = false
+
+[node name="b45" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 550 )
+Filled = false
+
+[node name="b46" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 660 )
+Filled = false
+
+[node name="b47" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 770 )
+Filled = false
+
+[node name="b48" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 880 )
+Filled = false
+
+[node name="b49" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 440, 990 )
+Filled = false
+
+[node name="b50" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 0 )
+Filled = false
+
+[node name="b51" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 110 )
+Filled = false
+
+[node name="b52" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 220 )
+Filled = false
+
+[node name="b53" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 330 )
+Filled = false
+
+[node name="b54" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 440 )
+Filled = false
+
+[node name="b55" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 550 )
+Filled = false
+
+[node name="b56" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 660 )
+Filled = false
+
+[node name="b57" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 770 )
+Filled = false
+
+[node name="b58" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 880 )
+Filled = false
+
+[node name="b59" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 550, 990 )
+Filled = false
+
+[node name="b60" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 0 )
+Filled = false
+
+[node name="b61" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 110 )
+Filled = false
+
+[node name="b62" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 220 )
+Filled = false
+
+[node name="b63" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 330 )
+Filled = false
+
+[node name="b64" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 440 )
+Filled = false
+
+[node name="b65" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 550 )
+Filled = false
+
+[node name="b66" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 660 )
+Filled = false
+
+[node name="b67" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 770 )
+Filled = false
+
+[node name="b68" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 880 )
+Filled = false
+
+[node name="b69" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 660, 990 )
+Filled = false
+
+[node name="b70" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 0 )
+Filled = false
+
+[node name="b71" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 110 )
+Filled = false
+
+[node name="b72" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 220 )
+Filled = false
+
+[node name="b73" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 330 )
+Filled = false
+
+[node name="b74" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 440 )
+Filled = false
+
+[node name="b75" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 550 )
+Filled = false
+
+[node name="b76" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 660 )
+Filled = false
+
+[node name="b77" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 770 )
+Filled = false
+
+[node name="b78" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 880 )
+Filled = false
+
+[node name="b79" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 770, 990 )
+Filled = false
+
+[node name="b80" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 0 )
+Filled = false
+
+[node name="b81" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 110 )
+Filled = false
+
+[node name="b82" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 220 )
+Filled = false
+
+[node name="b83" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 330 )
+Filled = false
+
+[node name="b84" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 440 )
+Filled = false
+
+[node name="b85" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 550 )
+Filled = false
+
+[node name="b86" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 660 )
+Filled = false
+
+[node name="b87" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 770 )
+Filled = false
+
+[node name="b88" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 880 )
+Filled = false
+
+[node name="b89" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 880, 990 )
+Filled = false
+
+[node name="b90" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 0 )
+Filled = false
+
+[node name="b91" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 110 )
+Filled = false
+
+[node name="b92" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 220 )
+Filled = false
+
+[node name="b93" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 330 )
+Filled = false
+
+[node name="b94" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 440 )
+Filled = false
+
+[node name="b95" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 550 )
+Filled = false
+
+[node name="b96" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 660 )
+Filled = false
+
+[node name="b97" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 770 )
+Filled = false
+
+[node name="b98" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 880 )
+Filled = false
+
+[node name="b99" parent="Blocks" instance=ExtResource( 2 )]
+modulate = Color( 0.8, 0.8, 0.8, 1 )
+position = Vector2( 990, 990 )
+Filled = false
