@@ -7,7 +7,7 @@ The initial motivation for this copy was because this specific game (with this r
 `¯\_(ツ)_/¯`
 
 
-The title of the game is "Little Blocks", which means "Little Blocks" in Portuguese, I didn't change it because she created this logo
+The title of the game is "Bloquinhos", which means "Little Blocks" in Portuguese, I didn't change it because she created this logo
 
 
 ## Screenshots
